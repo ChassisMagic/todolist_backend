@@ -58,7 +58,6 @@ module.exports = {
       if (updateTodoList) {
         return res.status(200).json({
           msg: "Update Successful",
-          data: updateTodoList
         })
       } 
     } catch (error) {
